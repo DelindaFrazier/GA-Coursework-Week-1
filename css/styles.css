@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html {
+    height:  100%;
+    margin:  0px auto;
+    padding: 0px auto;
+}
+
+body {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #8a8f97;
+}
+
+h1 {
+	color: #000;
+}
+
+
+h2 {
+	color: #B3003C;
+}
+
+
+a {
+	text-decoration: none;
+	color: #ED135D;
+}
+
+a:hover {
+	color: #609;
+}
+
+a:visited {
+	color: #609;
+}
+
+img {
+	border: none;
+}
+
+/*HEADER
+--------------------------------------------------------------- */
+
+#wrapper {
+	
+	min-height: 100%;
+	width:  100%;
+	padding-bottom: 50px;
+}
+
+#banner {
+	background-color: #000;
+	color: #FFF;
+	padding: 10px;
+	height: 225px;
+}
+
+#logo {
+	width: 100%;
+	margin-top: ;	
+}
+
+.clearfix {
+    display: block;
+}
+
+.headshot {
+	border-radius: 50%;
+	width: 200px;
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+.logo-name {
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 50px;
+	color: #FFF;
+}
+
+.nav {
+	text-align: center;
+	font-size: 16px;
+	border-top: 2px solid #FFF;
+	border-bottom: 2px solid #FFF;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	padding: 10px;
+}
+
+.nav a {
+	color: #FFF;
+}
+
+.nav a:hover {
+	color: #ED135D;
+}
+
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}	
+
+.nav li {
+	display: inline;
+	padding: 20px;
+}
+
+/*CONTENT
+----------------------------------------------------*/
+.content {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.6;
+	margin-bottom: 50px;
+	}
+	
+.content a {
+	color: 
+}
+
+/*FOOTER
+---------------------------------------------------*/
+
+#footer {
+	background-color: #000;
+	width: 100%;
+	position: fixed;
+	bottom: 0;	
+	height: 50px;
+	padding-bottom: 10px;
+}
+
+/*Social icons from: http://www.iconsdb.com*/
+
+.social-icons {
+	text-align: center;
+	
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.social-icons ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;		
+}	
+
+.social-icons li {
+	display: inline;
+	padding: 60px;
+}
+
+.social-icons img {
+	background-color: #FFF;
+	border: none;
+}
+
+.social-icons a:hover {
+	border-bottom: solid 4px #ED135D;
+}
